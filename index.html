@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charmly Gift</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="images/logo.png" alt="Charmly Gift Logo" class="logo">
+    <h1>Welcome to Charmly Gift</h1>
+    <h1>Website On Testing phase available Very Soon</h1>
+    <p>Find the perfect gifts for your loved ones 💖</p>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Filter Bar -->
+  <section class="filter-section">
+    <input type="text" id="searchInput" placeholder="Search products...">
+    <select id="categoryFilter">
+      <option value="all">All Categories</option>
+      <option value="flowers">Flowers</option>
+      <option value="teddy">Teddy Bears</option>
+      <option value="keychain">Keychains</option>
+      <option value="chocolate">Chocolate</option>
+      <option value="hamper">Gift Hampers</option>
+      <option value="combo">Combos</option>
+    </select>
+    <button type="button" id="filterConfirmBtn">Confirm</button>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products">
+    <h2>Our Products</h2>
+    <div id="product-list"></div>
+  </section>
+
+  <!-- Order Modal -->
+  <div id="orderForm" class="modal">
+    <div class="modal-content">
+      <h2>Order Details</h2>
+      <p id="selectedProduct"></p>
+
+      <form id="addressForm">
+        <label>Quantity:</label>
+        <input type="number" id="quantity" value="1" min="1">
+
+        <label>Full Name:</label>
+        <input type="text" id="Name" required>
+
+        <label>Contact Number:</label>
+        <input type="text" id="ContactNumber" required>
+
+        <label>Province:</label>
+        <input type="text" id="province" required>
+
+        <label>District:</label>
+        <input type="text" id="district" required>
+
+        <label>Municipality:</label>
+        <input type="text" id="municipality" required>
+
+        <label>Ward No:</label>
+        <input type="text" id="ward" required>
+
+        <label>Nearby Place:</label>
+        <input type="text" id="nearby" required>
+
+        <div class="btn-group">
+          <button type="button" id="whatsappBtn">Confirm</button>
+          <button type="button" id="cancelBtn" class="cancel">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Charmly Gift is a small gift business bringing smiles with flowers, teddy bears, and cute keychains. Contact us at +977-XXXXXXX.</p>
+    <div class="socials">
+      <a href="https://www.tiktok.com/@charmly.gift" target="_blank" rel="noopener noreferrer">TikTok</a>
+      <a href="https://www.instagram.com/charmlygift/" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+  </section>
+
+  <!-- Advertisement Banner -->
+  <div class="ad-banner" id="adBanner"></div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Charmly Gift. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Rose Bouquet",
+    "price": "1200",
+    "image": "images/flower1.jpg",
+    "description": "A beautiful bouquet of red roses.",
+    "category": "flowers"
+  },
+  {
+    "name": "Tulip Bouquet",
+    "price": "1000",
+    "image": "images/flower2.jpg",
+    "description": "Fresh tulips to brighten your day.",
+    "category": "flowers"
+  },
+  {
+    "name": "Sunflower Arrangement",
+    "price": "900",
+    "image": "images/flower3.jpg",
+    "description": "Cheerful sunflowers in a vase.",
+    "category": "flowers"
+  },
+  {
+    "name": "Teddy Bear",
+    "price": "800",
+    "image": "images/teddy1.jpg",
+    "description": "Soft and cuddly teddy bear.",
+    "category": "teddy"
+  },
+  {
+    "name": "Giant Teddy",
+    "price": "1500",
+    "image": "images/teddy2.jpg",
+    "description": "Extra-large teddy bear for hugs.",
+    "category": "teddy"
+  },
+  {
+    "name": "Keychain Set",
+    "price": "500",
+    "image": "images/keychain1.jpg",
+    "description": "Cute keychains for your keys.",
+    "category": "keychain"
+  },
+  {
+    "name": "Heart Keychain",
+    "price": "350",
+    "image": "images/keychain2.jpg",
+    "description": "Romantic heart-shaped keychain.",
+    "category": "keychain"
+  }
+]
